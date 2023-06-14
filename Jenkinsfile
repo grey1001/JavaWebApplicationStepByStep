@@ -25,7 +25,7 @@ pipeline {
             }
             steps {
                 script {
-                    def imageName = 'greyabiwon/JavaWebAPPstep:v1'
+                    def imageName = 'greyabiwon/javawebappstep:v1'
                     
                     docker.build(imageName, "-f Dockerfile .")
                     docker.withRegistry('https://registry.hub.docker.com', 'docker-login') {
