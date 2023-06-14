@@ -42,7 +42,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'docker stack deploy -c compose.yml myapps'
+                sh 'docker stack deploy -c compose.yml JavaWebAPP'
             }
         }
     }
