@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: greyabiwon/JavaWebAPPstep:v1
+    image: greyabiwon/javawebappstep:v1
     ports:
       - 8080:8080
     deploy:
